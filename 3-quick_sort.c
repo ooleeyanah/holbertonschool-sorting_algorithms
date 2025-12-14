@@ -58,7 +58,7 @@ print_array(array, size);
 }
 }
 }
-if (i + 1 != high)
+if (i + 1 != high && array[i + 1] != array[high])
 {
 tmp = array[i + 1];
 array[i + 1] = array[high];
