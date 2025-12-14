@@ -1,4 +1,6 @@
 #include "sort.h"
+static void quick_sort_recursive(int *array, int low, int high, size_t size);
+static int lomuto_partition(int *array, int low, int high, size_t size);
 /**
  * quick_sort - quick sort in asc
  * @array: array
